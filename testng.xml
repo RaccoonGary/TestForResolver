@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Resolver Test Suite" thread-count="6" parallel="methods">
+    <test name = "Home Page Test">
+        <parameter name="listNumber" value="3"></parameter>
+        <parameter name="itemValue" value="9"></parameter>
+        <parameter name="option" value="2"></parameter>
+        <parameter name="rowNumber" value="2"></parameter>
+        <parameter name="columnNumber" value="2"></parameter>
+        <parameter name="expectedCellValue" value="Ventosanzap"></parameter>
+
+        <classes>
+        <class name="ResolverTest_HomePageTest"/>
+        </classes>
+</test>
+</suite>
